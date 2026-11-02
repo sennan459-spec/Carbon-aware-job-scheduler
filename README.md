@@ -1,6 +1,6 @@
 # Carbon-aware job scheduler
 
-Flexible computer jobs, like ML training, builds and backups, often don't need to run right away. They just need to finish by a deadline. The electricity grid's carbon intensity (grams of CO2 per kWh) rises and falls through the day as solar and wind come and go. This project moves flexible jobs into the cleanest hours that still meet their deadlines, using 96-hour carbon intensity forecasts from [CarbonCast](https://github.com/UMass-LIDS/CarbonCast).
+Flexible computer jobs, like ML training, builds and backups, often don't need to run right away. They just need to finish by a deadline. The electricity grid's carbon intensity (grams of CO2 per kWh) rises and falls through the day as solar and wind come and go. This project moves flexible jobs into the cleanest hours that still meet their deadlines, using 96-hour carbon intensity forecasts from [CarbonCast](https://github.com/UMass-LIDS/CarbonCast). CarbonCast is a model that takes region(s) as input and outputs a 96 hour forecast of carbon intensity for the region at a specific time.
 
 **Goal:** a result of the form *"cut emissions X% across N real AI jobs"*, compared with running every job the moment it's submitted.
 
