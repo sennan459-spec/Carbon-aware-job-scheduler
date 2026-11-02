@@ -8,7 +8,7 @@ Flexible computer jobs, like ML training, builds and backups, often don't need t
 
 ## How it works
 
-The project replays the past to answer a "what if" question:
+This is a simulation, so everything is theoretical. We are taking datasets from past real jobs. The project replays the past to answer a "what if" question:
 
 1. **What happened.** Each real job runs as soon as it was submitted, and is charged the grid's actual carbon intensity during the hours it ran.
 2. **What if.** The same jobs, on the same real grid, but the scheduler picks each start time. It only sees the forecast that would have existed at the time, so it can't peek at the future.
